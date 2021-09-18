@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>INSTA PET</title>
+<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2913/2913519.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&display=swap" rel="stylesheet">
+<link href="estiloinstapet.css" rel="stylesheet" type="text/css">
+</head>
+<body id="fondo">
+        <h1>InstaPet!</h1>
+        <p>
+            Bienvenido! te presentamos la red social de tu mascota, acá podras presumir y enamorarte de otros animalitos!. <br> A continuación te vamos a pedir que nos comentes un poquito de tu compañero/a.</br>
+        </p>    
+    <div class="casilleros">
+        <h2>Ingresá sus datos acá:</h2>
+            <form>
+                <label  for="Nombre completo"> Nombre completo:</label><br>
+                    <input type="text" name="nombre"placeholder="Nombre" id="Nombre completo"required></br>
+                <label >  Edad: <br>
+                    <input type="number" name="edad"placeholder="Edad"required>
+                </label>
+                <br>
+                <label>Macho
+                    <input name="Género" type="radio" value="M">
+                </label>
+                <label>Hembra
+                    <input name="Género" type="radio" value="H">
+                </label><br>
+                <label for="Email"> Email:</label><br>
+                    <input  type="email" name="Email"placeholder="Email" id="Email"required></br>
+                <label> Contraseña:<br>
+                    <input type="password" name="Contraseña" placeholder="Contraseña"required>
+                </label></br>
+                <label  for="color"> Su color</label><br>
+                    <input type="color" name="color" placeholder="Color"required></br>
+                <br>
+                <label for="Especie">Especie:</label>
+                    <select name="Especie" id="Especie">
+                        <option value="god">Perro</option>
+                        <option value="cat">Gato</option>
+                        <option value="h/c">Hámster/ Cobayo</option>
+                        <option value="otro">Otro</option>
+                    </select><br></br>
+                        <label for="myfile">Muéstranos a tu amigo/a!:</label>
+                        <input type="file" id="myfile" name="myfile"><br><br>
+                <label for="comentario"> Comentarios</label>
+                    <br>
+                    <textarea id="comentarios" rows="10" cols="40" placeholder="Comentanos alguna acnédota divertida tuya con tu amigo/a"></textarea><br>
+                <label for="bases y condiciones">Acepto bases y condiciones</label>
+                    <input type="checkbox" name="bases\y\condiciones" value="Acepta"><br>
+                <input type="submit">
+            </form>
+    </div>
+    
+</body>
+</html>
+
